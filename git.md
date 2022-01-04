@@ -7,12 +7,14 @@
     $git add .       // Add all files to the index
     $git status      // Check status of working tree (To see what you have in the index)
     $git commit      // Take everything in the index and put it in the local repo
-    git commit -m "first commit" // Take everything in the index and put it in the local repo with a message
+    $git commit -m "first commit" // Take everything in the index and put it in the local repo with a message
 
     // The following commands have to do with remote repo (i.e github ...)
     $git push       // Push to remote repo (will need to add link to your remote repository account)
     $git pull       // Pull latest changes from remote repo
     $git clone      // Clone repository into your current folder
+    $git remote add origin <https:your-remote-repo-link> // Add a remote repo origin
+    $git push -u origin main // Push to your remote repo
 
 //Installing GIT
 
