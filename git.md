@@ -36,6 +36,8 @@
     - Then you can start adding files to your repo using $git add <filename.index>
     *Notice that while nothing happens when you enter these commands, it doesn't mean that nothing has changes. To check which files have been added to your repo you can use the command $git status
 
+    -Once all your files are added, you want to commit (put them in the local repository), then add your remote repo origin with the link provided by them when you've created the new repo, then you want to push everything to it.
+
 //Definition
 
     Changes not staged for commit  // Means that we've added changes to a file while it was in the staging area (so you must add it again with the updated changes. You do that with the same $git add <file> command)
