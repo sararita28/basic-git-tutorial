@@ -29,7 +29,7 @@
 
 //Tutorial
 
-    - Once github is installed and initialized, you want to add your name and email address to git so in your terminal you add these 2 lines of codes once at a time:
+    - Once git is installed and initialized, you want to add your name and email address to git so in your terminal you add these 2 lines of codes once at a time:
         $git config --global user.name 'YourName'
         $git config --global user.email 'YourEmail'
 
@@ -37,6 +37,8 @@
     *Notice that while nothing happens when you enter these commands, it doesn't mean that nothing has changes. To check which files have been added to your repo you can use the command $git status
 
     -Once all your files are added, you want to commit (put them in the local repository), then add your remote repo origin with the link provided by them when you've created the new repo, then you want to push everything to it.
+    
+    -If this was successful, you'll be promped to login to your github and should then be able to see your files on your Github repository (assuming you're using Github as a remote repo).
 
 //Definition
 
